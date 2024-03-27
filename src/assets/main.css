@@ -6,11 +6,16 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: clamp(16px, 4vw, 24px);
+  font-family: 'Amiko', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.map__marker__popup {
+  font-family: 'Amiko', sans-serif;
 }

@@ -26,7 +26,7 @@ const routes: { name: RouteName; route: RoutePath; icon: Component }[] = [
 <template>
   <div class="layout">
     <header>
-      <img src="/logo2.png" alt="logo" />
+      <img src="/logo2.svg" alt="logo" />
       <h1>{{ $route.name }}</h1>
     </header>
     <div class="content">
@@ -96,6 +96,7 @@ footer {
   gap: 0.5rem;
   border-radius: 1rem 1rem 0 0;
   color: var(--white);
+  font-weight: 600;
   box-shadow: -1px -5px 5px 0px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 99999;

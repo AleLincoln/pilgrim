@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ShareFromSquare from '@/components/icons/ShareFromSquareSolid.vue'
 import { useLocations } from '@/stores/locations'
 import { computed } from 'vue'
 
@@ -32,7 +33,13 @@ const nextHourLocationList = computed(() => {
     <div class="cards">
       <div class="card" v-for="(location, index) in nextHourLocationList" :key="index">
         <h3>{{ location.name }}</h3>
-        <p><b> Morada:</b> {{ location.address }}</p>
+        <p class="card__address">
+          <b> Morada: </b>
+          <a :href="`https://www.google.com/maps?q=${location.name}`" target="_blank">
+            {{ location.address }}
+            <ShareFromSquare />
+          </a>
+        </p>
         <div>
           <h4>Missas</h4>
           <p><b>Dias da semana:</b> {{ location.weekdays }}</p>
@@ -78,5 +85,14 @@ main {
   max-width: 30rem;
   background-color: var(--color-white);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card__address a {
+  color: #0078a8;
+}
+
+.card__address svg {
+  width: 1rem;
+  fill: #0078a8;
 }
 </style>

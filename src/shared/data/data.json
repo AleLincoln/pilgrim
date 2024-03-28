@@ -1,7 +1,7 @@
 {
   "churches_details": [
     {
-      "name": "Aldoar",
+      "name": "Igreja Paroquial de Aldoar",
       "phone": "226100113",
       "weekdays": "19:00 (3ª a 6ª feira)",
       "Saturday_morning": "",
@@ -12,7 +12,7 @@
       "longitude": "-8.6698765"
     },
     {
-      "name": "Almas (perto do Metro do Bolhão)",
+      "name": "Capela das Almas",
       "phone": "222005765",
       "weekdays": "8:00, 9:00, 10:00, 12:00, 16:00, 17:00",
       "Saturday_morning": " 8.00, 9.00, 10.00, 12.00",
@@ -23,7 +23,7 @@
       "longitude": "-8.6082303"
     },
     {
-      "name": "Amial",
+      "name": "Paróquia do Amial",
       "phone": "228348850",
       "weekdays": "9:00, 19:00",
       "Saturday_morning": "9:00",
@@ -34,7 +34,7 @@
       "longitude": "-8.6187982"
     },
     {
-      "name": "Areosa",
+      "name": "Paróquia Nossa Senhora da Areosa",
       "phone": "225499333",
       "weekdays": "8:00, 19:30",
       "Saturday_morning": "8:00",
@@ -45,7 +45,7 @@
       "longitude": "-8.5900306"
     },
     {
-      "name": "Antas",
+      "name": "Igreja Paroquial de Santo António das Antas",
       "phone": "225021006",
       "weekdays": "10:00, 19:15",
       "Saturday_morning": "10:00",
@@ -56,18 +56,18 @@
       "longitude": "-8.5924474"
     },
     {
-      "name": "Bonfim",
-      "phone": "225899690",
+      "name": "Igreja Paroquial do Bonfim",
+      "phone": "964931404",
       "weekdays": "19:00",
       "Saturday_morning": "",
       "Saturday_late": "19:00",
       "Dominical": "9:00, 11:00, 19:00",
       "address": "R. do Monte do Bonfim 72, 4300-350 Porto",
-      "latitude": "41.1515672",
-      "longitude": "-8.5959127"
+      "latitude": "41.1518591",
+      "longitude": "-8.5934409"
     },
     {
-      "name": "Campanhã (Sta. Maria)-Rua do Falcão",
+      "name": "Igreja de Santa Maria de Campanhã",
       "phone": "225370340 935370341",
       "weekdays": "10:00(à 4ªf)",
       "Saturday_morning": "",
@@ -78,7 +78,7 @@
       "longitude": "-8.5742538"
     },
     {
-      "name": "Campanhã (S. Pedro)",
+      "name": "Igreja de São Pedro de Azevedo",
       "phone": "225370340 935370341 935370340",
       "weekdays": "18:00(à 5ªf)",
       "Saturday_morning": "",
@@ -88,7 +88,7 @@
       "longitude": "-8.5980478"
     },
     {
-      "name": "Campanhã (Capela Monte do Forte- Azevedo)",
+      "name": "Capela do Forte",
       "phone": "225370340 935370341 935370340",
       "weekdays": "",
       "Saturday_morning": "",
@@ -209,7 +209,7 @@
       "longitude": "-8.6165598"
     },
     {
-      "name": "Conceição (Marquês)",
+      "name": "Igreja Paroquial de Nossa Senhora da Conceição",
       "phone": "225072190",
       "weekdays": "10:00(3ª a 6ª), 19:15 (3ª a 6ª)",
       "Saturday_morning": "10:00",
@@ -220,7 +220,7 @@
       "longitude": "-8.6081579"
     },
     {
-      "name": "Congregados",
+      "name": "Igreja de Santo António dos Congregados",
       "phone": "222002948",
       "weekdays": "8:00, 10:00, 11:00(exc: sexta), 18:00",
       "Saturday_morning": "9:00, 10:00, 11:00",
@@ -231,45 +231,51 @@
       "longitude": "-8.6133138"
     },
     {
-      "name": "Cristo Rei",
+      "name": "Igreja Paroquial de Cristo Rei",
       "phone": "226165760",
       "weekdays": "8:00, 12:00, 19:00",
       "Saturday_morning": "8:00",
       "Saturday_late": "12:00, 19:00",
-      "Dominical": "9:00, 10:30, 12:00, 13:15 (Inverno) 19:00"
+      "Dominical": "9:00, 10:30, 12:00, 13:15 (Inverno) 19:00",
+      "address": "Praça Dom Afonso v 86, 4150-024 Porto",
+      "latitude": "41.1594082",
+      "longitude": "-8.6654766"
     },
     {
-      "name": "Lapa, Igreja",
+      "name": "Igreja da Lapa",
       "phone": "222001369",
       "weekdays": "9:00(3ª a 6ª feira), 11:00(3ª a 6ª feira), 19:15(3ª a 6ª feira)(exc: agosto)",
       "Saturday_morning": "9:00, 11:00",
       "Saturday_late": "19:00",
-      "Dominical": "9:00, 10:30, 12:00, 19:00"
+      "Dominical": "9:00, 10:30, 12:00, 19:00",
+      "address": "Largo da Lapa 1, 4050-069 Porto",
+      "latitude": "41.1571626",
+      "longitude": "-8.6145709"
     },
     {
-      "name": "Lordelo do Ouro",
+      "name": "Igreja de São Martinho de Lordelo",
       "phone": "226170671",
       "weekdays": "8:30(2ª,4ª e 6ªfeira)(verão- de julho a outubro), 18:45(2ª,4ª e 6ªfeira)(inverno-outubro a julho)",
       "Saturday_morning": "",
       "Saturday_late": "18:30",
       "Dominical": "10:30, 18:30",
       "address": "R. das Condominhas 739, 4150-221 Porto",
-      "latitude": "41.1515198",
-      "longitude": "-8.6514033"
+      "latitude": "41.1534884",
+      "longitude": "-8.6530878"
     },
     {
-      "name": "Massarelos (Corpo Santo)",
+      "name": "Igreja Paroquial de Massarelos",
       "phone": "220185665",
       "weekdays": "19:00 (3ª feira)(verão), 18:00(3ªfeira )(inverno)",
       "Saturday_morning": "",
       "Saturday_late": "18:00",
       "Dominical": "",
       "address": "Largo Adro 9, 4050-015 Porto",
-      "latitude": "41.146176",
-      "longitude": "-8.6330267"
+      "latitude": "41.1458961",
+      "longitude": "-8.6330883"
     },
     {
-      "name": "Miragaia, S Pedro",
+      "name": "Igreja Paroquial de São Pedro de Miragaia",
       "phone": "222007618",
       "weekdays": "19:00 (5ª feira)",
       "Saturday_morning": "",
@@ -575,17 +581,6 @@
       "address": "Largo São Cristovão Mafamude, 4430-224 Vila Nova de Gaia",
       "latitude": "41.1254546",
       "longitude": "-8.6054451"
-    },
-    {
-      "name": "Igreja Paroquial de Santa Marinha",
-      "phone": "223795385",
-      "weekdays": "",
-      "Saturday_morning": "",
-      "Saturday_late": "",
-      "Dominical": "9:30",
-      "address": "",
-      "latitude": "41.1362517",
-      "longitude": "-8.6339584"
     },
     {
       "name": "Igreja do Monte da Virgem",
@@ -910,8 +905,8 @@
       "Saturday_late": "19:00",
       "Dominical": "9:00, 11:15 (salão paroquial)",
       "address": "R. do Paniceiro 390, 4400-536 Canidelo",
-      "latitude": "41.123334",
-      "longitude": "-8.6473562"
+      "latitude": "41.123602",
+      "longitude": "-8.6463737"
     },
     {
       "name": "Capela de São Pedro de Lavadores",
@@ -938,11 +933,13 @@
     {
       "name": "Igreja Paroquial do Candal",
       "phone": "917936817",
-      "address": "R. Ten. Valadim 99, 4400-332 Vila Nova de Gaia",
       "weekdays": "19:00",
       "Saturday_morning": "",
       "Saturday_late": "19:00",
-      "Dominical": "11:00, 19:00"
+      "Dominical": "11:00, 19:00",
+      "address": "R. Ten. Valadim 99, 4400-332 Vila Nova de Gaia",
+      "latitude": "41.1334442",
+      "longitude": "-8.6315552"
     }
   ]
 }

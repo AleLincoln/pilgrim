@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { reactive, onMounted } from 'vue'
+import ShareFromSquare from '@/components/icons/ShareFromSquareSolid.vue'
 import 'leaflet/dist/leaflet.css'
 import { type Coordinates } from '@/shared/types/generic'
 import { useLocations } from '@/stores/locations'
@@ -59,10 +60,16 @@ onMounted(async () => {
           >
             <l-popup class="map__marker__popup">
               <h3>{{ location.name }}</h3>
-              <p><b> Morada:</b> {{ location.address }}</p>
+              <p>
+                <b> Morada: </b>
+                <a :href="`https://www.google.com/maps?q=${location.name}`" target="_blank">
+                  {{ location.address }}
+                  <ShareFromSquare />
+                </a>
+              </p>
               <div>
                 <h4>Missas</h4>
-                <p><b>Dias da semana:</b> {{ location.weekdays }}</p>
+                <p><b>Dias da semana: </b> {{ location.weekdays }}</p>
                 <p>
                   <b>Sábados: </b>
                   {{ joinSaturdayDates(location.Saturday_morning, location.Saturday_late) }}
@@ -84,3 +91,9 @@ onMounted(async () => {
     </div>
   </main>
 </template>
+<style scoped>
+.map__marker__popup a svg {
+  width: 1rem;
+  fill: #0078a8;
+}
+</style>
